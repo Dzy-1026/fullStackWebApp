@@ -28,6 +28,15 @@ sudo .deno/bin/deno /usr/bin
 deno --version
 
 git clone https://~~
+
+touch mod.js
+vim mod.js
+
+deno run --allow-net mod.js
+
+curl localhost:8080
+
+netstat -natp
 ```
 ## DataBase
 
