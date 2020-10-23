@@ -9,7 +9,7 @@ router
       index: "index.html",
     });
   })
-  .get("/books", async(ctx) => {
+  .get("/book", async(ctx) => {
   const res=await BookAll();
 console.log(res.rows)
 ctx.response.body=res.rows;
@@ -31,4 +31,3 @@ app.use(router.allowedMethods());
 // console.log(`${Deno.cwd()}`)
 
 await app.listen({ port: 8080 });
-
