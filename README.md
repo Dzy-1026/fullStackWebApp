@@ -1,6 +1,6 @@
 # fullStackWebApp
 
-> 这是一个简单的全站web App，基于Deno + Vue + Mysql.
+> 这是一个简单的全栈web App，基于Deno + Vue + Mysql.
 
 ## Client
 
